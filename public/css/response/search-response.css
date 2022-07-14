@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1570px) {
+    .search{
+        margin-top: 90px;
+        min-height: calc(100vh - 168px);
+    }
+}
+@media only screen and (max-width: 900px) {
+    .search__title{
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .search{
+        margin-top: 60px;
+        min-height: calc(100vh - 138px);
+    }
+}
+@media only screen and (max-width: 500px) {
+    .result {
+        margin-top: 20px;
+    }
+    .search__title{
+        font-size: 15px;
+        margin: 0 0 10px 9px;
+    }
+}
+@media only screen and (max-width: 430px) {
+    .search{
+        margin-top: 58px;
+        min-height: calc(100vh - 136px);
+    }
+}

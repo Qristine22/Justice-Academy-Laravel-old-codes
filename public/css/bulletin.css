@@ -1,0 +1,24 @@
+/*
+bulletin
+*/
+
+.bulletin{
+    position: relative;
+    margin-top: 120px;
+}
+.bulletin__pdfs{
+    border-top: 1px solid var(--dark-yellow);
+}
+.swiper-pagination-bullet{
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    -ms-transition: all ease .5s;
+    -o-transition: all ease .5s;
+}
+.swiper-pagination-bullet:hover {
+    background-color: #c28d31;
+}
+.swiper-pagination-bullet-active:hover {
+    background-color: var(--brown) !important;
+}

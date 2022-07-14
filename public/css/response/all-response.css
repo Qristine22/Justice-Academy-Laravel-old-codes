@@ -1,0 +1,502 @@
+@media only screen and (max-width: 1750px) {
+    .header__item:first-child > .header__menu_list{
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+}
+    .header__logo{
+        position: unset;
+        transform: translateX(-10%);
+        -webkit-transform: translateX(-10%);
+        -moz-transform: translateX(-10%);
+        -ms-transform: translateX(-10%);
+        -o-transform: translateX(-10%);
+    }
+}
+@media only screen and (max-width: 1570px) {
+    .wrapper{
+        width: 96%;
+    }
+    .header__item {
+        height: 90px;
+    }
+    .header__bot{
+        top: 90px;
+    }
+    .section-top{
+        margin-top: 90px;
+    }
+    .header__link,
+    .header__lang,
+    .footer__text{
+        font-size: 13px;
+    }
+    .header__menu_link{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .last-news__title{
+        font-size: 35px;
+    }
+    .last-news__item_link{
+        font-size: 20px;
+        line-height: 35px;
+        letter-spacing: 1px;
+    }
+    .read-more{
+        font-size: 12px;
+    }
+    .dates {
+        width: 50%;
+    }
+    .dates__item_title{
+        width: 45%;
+    }
+    .courses__item_name{
+        font-size: 22px;
+        line-height: 25px;
+    }
+}
+@media only screen and (max-width: 1300px) {
+    .header__bot{
+        position: unset;
+        margin-top: 90px;
+    }
+    .section-top{
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 1210px) {
+    .header__info_list .header__link{
+        font-size: 12px;
+    }
+    .dates__item_title{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .date{
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    /* pagination */
+    .pagination__link{
+        width: 23px;
+        padding: 5px 7px;
+    }
+    .pagination__num{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 1150px) {
+    .header__lang{
+        margin-left: 0;
+    }
+    .header__link,
+    .header__lang,
+    .footer__text{
+        font-size: 12px;
+    }
+    .header__menu_link{
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .last-news__title{
+        font-size: 25px;
+    }
+    .last-news__item_link{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .read-more{
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width: 1080px) {
+    .nav,
+    .header__bot{
+        display: none;
+    }
+    .header,
+    .header__cont{
+        height: 90px;
+    }
+    .header__cont{
+        justify-content: space-between;
+    }
+    .burger-menu{
+        display: flex;
+    }
+    .header__logo{
+        width: 55px;
+    }
+    .section-top{
+        margin-top: 90px;
+    }
+    .section__min-height{
+        min-height: calc(100vh - 100px);
+    }
+}
+@media only screen and (max-width: 1050px) {
+    .courses__item_name {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .courses__pdfs_item {
+        width: calc(33% - 10px);
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .text-26{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .governing__dates{
+        padding: 30px 0;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .section {
+        padding: 50px 0;
+    }
+    .last-news__title{
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    .last-news__item_link,
+    .text-18,
+    .section-text__cont p,
+    .section-text__cont li{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .text-20,
+    .section-text__cont h3{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .last-news__item_cont{
+        padding: 35px 10px 15px 10px;
+    }
+    .read-more__arrow{
+        width: 25px;
+    }
+    .section-text__cont ol{
+        margin-left: 70px;
+    }
+    .section-text__cont li::before{
+        font-size: 25px;
+        left: -20px;
+    }
+    .section-text__cont li::before{
+        font-size: 20px;
+    }
+    .pdfs{
+        min-height: calc(100vh - 200px);
+    }
+    .pdfs__title{
+        font-size: 25px;
+    }
+    .pdfs__item_layer,
+    .pdfs__item_see-all{
+        height: 50px;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .dates__item{
+        flex-direction: column;
+    }
+    .dates__item_title{
+        width: 100%;
+        text-align: center;
+    }
+    .dates{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .pdf__item_icon{
+        width: 30px;
+    }
+    .governing__date{
+        display: flex;
+        justify-content: center;
+    }
+    .link__pdf{
+        height: auto;
+    }
+    .link__pdf_icon{
+        width: 60px;
+        padding-left: 25px;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .header,
+    .header__cont{
+        height: 60px;
+    }
+    .section-top{
+        margin-top: 60px;
+    }
+    .mobile-nav{
+        top: 60px;
+    }
+    .section-text{
+        padding: 30px 0;
+    }
+    .header__logo {
+        width: 40px;
+    }
+    .text-20,
+    .section-text__cont h3{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .text-18,
+    .section-text__cont p,
+    .section-text__cont li{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .section-text__cont ol{
+        margin-left: 50px;
+    }
+    .section-text__cont li::before,
+    .pdfs__title{
+        font-size: 20px;
+    }
+    .section-text__cont li::before{
+        font-size: 16px;
+    }
+    .last-news__item_link {
+        font-size: 13px;
+        line-height: 0px;
+    }
+    .last-news__item_cont {
+        padding: 20px 10px 15px 10px;
+    }
+    .read-more {
+        font-size: 10px;
+    }
+    .read-more__arrow {
+        width: 15px;
+    }
+    .footer__link{
+        margin-left: 10px;
+    }
+    .footer__link:first-child > img{
+        width: 7px;
+    }
+    .footer__link:nth-child(2) > img{
+        width: 16px;
+    }
+    .footer__link:nth-child(3) > img{
+        width: 14px;
+    }
+    .footer__link:nth-child(4) > img,
+    .footer__link:last-child > img{
+        width: 18px;
+    }
+    .pdfs__layer_img {
+        width: 22px;
+        margin-right: 5px;
+    }
+    .courses__item_name{
+        width: 200%;
+        margin: 60px 0 0 -50%;
+    }
+
+    .swiper-pagination-bullet{
+        width: 15px;
+        height: 15px;
+        font-size: 9px;
+        margin-right: 25px;
+    }
+    .swiper-pagination-bullet::after{
+        width: 25px;
+    }
+    .pdf__download_img{
+        width: 30px;
+    }
+
+    /* pagination */
+    .pagination__link{
+        width: 21px;
+        padding: 4px 6px;
+        margin-left: 0px;
+    }
+    .pagination__num{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .dates__item_title{
+        font-size: 18px;
+    }
+    .date {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .last-news__item:last-child{
+        display: none;
+    }
+    .last-news__item{
+        max-width: 50%;
+    }
+    .text-26 {
+        font-size: 17px;
+        line-height: 25px;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .courses__item_name {
+        font-size: 12px;
+        line-height: 15px;
+        margin: 23px 0 0 -50%;
+    }
+}
+@media only screen and (max-width: 505px) {
+    .text-18,
+    .section-text__cont p,
+    .section-text__cont li{
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .section-text__cont strong{
+        font-size: 15px;
+    }
+    /* .info__list, */
+    .section-text__cont ol{
+        margin-left: 30px;
+    }
+    /* .info__item::before, */
+    .section-text__cont li::before{
+        font-size: 15px;
+        left: -15px;
+    }
+    /* .info__item .info__item::before, */
+    .section-text__cont li .section-text__cont li::before{
+        font-size: 13px;
+    }
+    .section {
+        padding: 30px 0;
+    }
+    .margin__par{
+        margin-top: 15px;
+    }
+    .pdf__item{
+        margin-bottom: 25px;
+    }
+    .pdf__item_cont{
+        width: calc(100% - 50px);
+        padding-right: 20px;
+    }
+    .pdf__item_icon{
+        margin-left: 20px;
+    }
+    .pdf__item_img{
+        margin: 35px 0 0 0;
+    }
+    .pdf__item_span{
+        right: 15px;
+    }
+    .pdfs__title{
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+    .courses__pdfs_items{
+        justify-content: center;
+    }
+    .courses__pdfs_item{
+        width: 80%;
+        margin-bottom: 15px;
+    }
+}
+@media only screen and (max-width: 430px) {
+    .header{
+        height: 56px;
+    }
+    .section-top{
+        margin-top: 56px;
+    }
+    .mobile-nav{
+        top: 56px;
+    }
+    .header-mob__item{
+        width: 100%;
+    }
+    .burger-menu {
+        width: 25px;
+        height: 16px;
+    }
+    .last-news__title {
+        font-size: 19px;
+        margin-bottom: 25px;
+    }
+    .last-news__item_link {
+        font-size: 11px;
+    }
+    .footer__link{
+        margin-left: 5px;
+    }
+    .footer__link:first-child > img{
+        width: 5px;
+    }
+    .footer__link:nth-child(2) > img{
+        width: 13px;
+    }
+    .footer__link:nth-child(3) > img{
+        width: 12px;
+    }
+    .footer__link:nth-child(4) > img,
+    .footer__link:last-child > img{
+        width: 16px;
+    }
+    .footer__cont{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer__sites{
+        margin-top: 15px;
+    }
+        
+    /* pagination */
+    .pagination__link{
+        width: 18px;
+    }
+    .pagination__num{
+        font-size: 12px;
+        line-height: 0;
+    }
+    .pagination__pages {
+        margin: 0 8px;
+        line-height: 0;
+    }
+    .pagination__divide {
+        margin: 0;
+    }
+    .dates__item_title{
+        font-size: 16px;
+    }
+    .dates{
+        flex-wrap: wrap;
+    }
+    .date{
+        width: 30%;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .pdf__item_icon{
+        width: 20px;
+        margin-left: 15px;
+    }
+    .pdf__item_cont{
+        width: calc(100% - 35px);
+        padding-right: 15px;
+    }
+}

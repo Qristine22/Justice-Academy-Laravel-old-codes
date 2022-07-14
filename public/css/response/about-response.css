@@ -1,0 +1,418 @@
+@media only screen and (max-width: 1570px) {
+    .structure{
+        min-height: 100vh;
+    }
+    .structure__img{
+        width: 550px;
+        margin: 40px 0;
+    }
+    .structure__btn{
+        border: 1px solid var(--dark-yellow);
+        font-size: 15px;
+        height: 40px;
+        padding: 0 15px;
+    }
+    .structure__btn:hover{
+        border: 1px solid var(--brown);
+    }
+    .structure__span{
+        line-height: 15px;
+    }
+    .structure__mid_link{
+        width: 170px;
+        font-size: 13px;
+        padding: 0;
+    }
+    .structure__small_link-left,
+    .structure__small_link-center,
+    .structure__small_link-right{
+        font-size: 11px;
+        padding: 0;
+    }
+    .structure__small_link-left{
+        width: 250px;
+        left: calc(50% - 411px);
+    }
+    .structure__small_link-center {
+        width: 145px;
+        left: calc(50% - 70px);
+    }
+    .structure__small_link-right{
+        width: 160px;
+        left: calc(50% + 165px);
+    }
+    .structure__small_link-left > .structure__span,
+    .structure__small_link-center > .structure__span,
+    .structure__small_link-right > .structure__span{
+        line-height: 11px;
+    }
+    .structure__rector{
+        top: 63px;
+    }
+    .structure__advisor {
+        top: 160px;
+        left: calc(50% - 355px);
+    }
+    .structure__vice-rector {
+        top: 145px;
+        left: calc(50% - 176px);
+    }
+    .structure__chief {
+        top: 145px;
+        left: calc(50% + 3px);
+    }
+    .structure__it {
+        top: 160px;
+        left: calc(50% + 184px);
+    }
+    .structure__scientific-research {
+        top: 272px;
+    }
+    .structure__judiciary {
+        top: 377px;
+    }
+    .structure__prosecutorial {
+        bottom: 24px;
+    }
+    .structure__bulletin {
+        top: 216px;
+    }
+    .structure__library {
+        top: 318px;
+    }
+    .structure__publishing {
+        bottom: 77px;
+    }
+    .structure__finance {
+        top: 225px;
+    }
+    .structure__cooperation {
+        top: 288px;
+    }
+    .structure__staff {
+        top: 352px;
+    }
+    .structure__tehchnic {
+        top: 413px;
+    }
+    .structure__hotel {
+        bottom: 24px;
+    }
+    .admission__cont{
+        min-height: calc(100vh - 70px);
+    }
+}
+@media only screen and (max-width: 1350px) {
+    .members__item_cont{
+        padding: 10px;
+    }
+    .member__title{
+        font-size: 20px;
+    }
+    .member__subtitle{
+        font-size: 13px;
+        line-height: 17px;
+        margin-top: 8px;
+    }
+    .members__items{
+        margin: 0 -5px;
+    }
+    .members__item{
+        width: calc(25% - 10px);
+        margin: 5px;
+    }
+    .gallery-video__item iframe {
+        height: 190px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .members__title{
+        margin-bottom: 30px;
+    }
+    .members__item{
+        width: calc(33% - 10px);
+    }
+    .graduates__cont_item{
+        width: calc(25% - 10px);
+    }
+    .gallery__item{
+        width: calc(33% - 20px);
+        margin: 10px;
+    }
+    .gallery {
+        min-height: calc(100vh - 120px);
+    }
+}
+@media only screen and (max-width: 900px) {
+    .member__name {
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+    .member__info_item{
+        margin-top: 10px;
+    }
+    .member__info_subtitle{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .graduate__item{
+        width: calc(25% - 10px);
+    }
+    .graduates__items > .graduate__item:first-child{
+        display: none;
+    }
+    .graduate-profession__item{
+        width: calc(25% - 20px);
+    }
+    .member__info strong{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .gallery-video__item iframe {
+        height: 110px;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .structure__img{
+        width: 260px;
+        margin: 20px 0;
+    }
+    .structure__btn{
+        height: 20px;
+        padding: 0 5px;
+        font-size: 7px;
+    }
+    .structure__span{
+        line-height: 7px;
+    }
+    .structure__mid_link{
+        width: 80px;
+        font-size: 6px;
+    }
+    .structure__small_link-left,
+    .structure__small_link-center,
+    .structure__small_link-right{
+        font-size: 5px;
+        padding: 0;
+    }
+    .structure__small_link-left{
+        width: 120px;
+        left: calc(50% - 197px);
+    }
+    .structure__small_link-center{
+        width: 65px;
+        left: calc(50% - 32px);
+    }
+    .structure__small_link-right{
+        width: 100px;
+        left: calc(50% + 78px);
+    }
+    .structure__small_link-left > .structure__span,
+    .structure__small_link-center > .structure__span,
+    .structure__small_link-right > .structure__span{
+        line-height: 5px;
+    }
+    .structure__rector{
+        top: 30px;
+    }
+    .structure__advisor{
+        top: 78px;
+        left: calc(50% - 170px);
+    }
+    .structure__vice-rector {
+        top: 68px;
+        left: calc(50% - 83px);
+    }
+    .structure__chief{
+        top: 68px;
+        left: calc(50% + 3px);
+    }
+    .structure__it {
+        top: 78px;
+        left: calc(50% + 90px);
+    }
+    .structure__scientific-research{
+        top: 130px;
+    }
+    .structure__judiciary{
+        top: 180px;
+    }
+    .structure__prosecutorial{
+        bottom: 12px;
+    }
+    .structure__bulletin {
+        top: 103px;
+    }
+    .structure__library {
+        top: 151px;
+    }
+    .structure__publishing {
+        bottom: 37px;
+    }
+    .structure__finance {
+        top: 108px;
+    }
+    .structure__cooperation {
+        top: 137px;
+    }
+    .structure__staff {
+        top: 167px;
+    }
+    .structure__tehchnic {
+        top: 198px;
+    }
+    .structure__hotel {
+        bottom: 12px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .members__title{
+        text-align: center;
+    }
+    .members__item_count > span{
+        font-size: 45px;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .member__info_subtitle{
+        font-size: 13px;
+    }
+    .about__date{
+        font-size: 17px;
+    }
+    .graduate-profession__item{
+        width: calc(33.3% - 20px);
+    }
+    .member__info strong{
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .member__info li p:first-child,
+    .member__info li p:last-child,
+    .member__info h4{
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .gallery-video__item{
+        width: calc(50% - 30px);
+        margin: 15px;
+    }
+    .gallery-video__item iframe {
+        height: 170px;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .members__item{
+        width: calc(50% - 10px);
+    }
+    .member__name {
+        font-size: 19px;
+        letter-spacing: 1px;
+    }
+    .member__info_block{
+        margin-top: 40px;
+    }
+    .gallery__item{
+        width: calc(50% - 20px);
+    }
+}
+@media only screen and (max-width: 505px) {
+    .member__title {
+        font-size: 14px;
+    }
+    .member__subtitle {
+        font-size: 10px;
+        line-height: 13px;
+        margin-top: 5px;
+    }
+    .member__img{
+        position: unset;
+        width: 155px;
+        margin-bottom: 20px;
+    }
+    .member__cont{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .member__info{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .member__name,
+    .member__position{
+        padding-right: 0;
+    }
+    .member__info_item{
+        flex-direction: column;
+    }
+    .member__info_subtitle{
+        font-size: 11px;
+    }
+    .member__info_inner,
+    .member__info_subtitle{
+        line-height: 15px;
+        width: 100%;
+    }
+    .member__info_block,
+    .mass-media__item{
+        margin-top: 30px;
+    }
+    .mass-media__list_item{
+        margin-top: 20px;
+    }
+    .date-12{
+        width: 25%;
+    }
+    .members__item_count > span{
+        font-size: 22px;
+    }
+    .member__info li p:first-child{
+        font-size: 12px;
+        width: 100px;
+    }
+    .member__info li p:last-child{
+        font-size: 12px;
+        width: calc(100% - 100px);
+    }
+}
+@media only screen and (max-width: 450px) {
+    .governing__date .date{
+        width: 100%;
+        text-align: center;
+    }
+    .about__dates{
+        flex-wrap: wrap;
+    }
+    .about__date{
+        font-size: 15px;
+        padding: 0px 5px;
+    }
+    .member__title {
+        font-size: 10px;
+    }
+    .member__subtitle {
+        font-size: 8px;
+        line-height: 9px;
+        margin-top: 3px;
+    }
+    .graduate__item{
+        width: calc(33% - 5px);
+    }
+    .graduates__items > .graduate__item:nth-child(2){
+        display: none;
+    }
+    .graduate-profession__item{
+        width: calc(33.3% - 10px);
+        margin: 5px;
+    }
+    .graduates-profession__items{
+        margin: 0 -5px;
+    }
+    .gallery-video__item{
+        width: 100%;
+    }
+    .gallery-video__item iframe {
+        height: 210px;
+    }
+}

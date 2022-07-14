@@ -1,0 +1,89 @@
+/*
+education
+*/
+
+.education{
+    height: calc(100vh - 278px);
+}
+
+/*
+training program
+*/
+
+.training-program__title{
+    width: 90%;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+/*
+conducting exams
+*/
+
+.conducting-exams__bot{
+    margin-top: 30px;
+}
+.conducting-exams__vid{
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.rector__bot {
+    width: 100%;
+    border-top: 1px solid var(--dark-yellow);
+}
+.rector__bot_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.about__link{
+    color: var(--dark-yellow);
+    font-weight: 700;
+    padding: 0 8px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    -o-transition: all ease .3s;
+}
+.about__link:hover,
+.about__link-active{
+    border: 1px solid var(--dark-yellow);
+    background-color: var(--pink);
+}
+.distance__learning_videos{
+    margin-bottom: 30px;
+}
+.distance__learning_video_name{
+    margin-top: 10px;
+}
+.distance__learning_video_name:first-child{
+    margin-top: 0;
+}
+.video__name{
+    width: 70%;
+    text-align: center;
+    font-weight: 700;
+    line-height: 25px;
+    margin-top: 10px;
+}
+.distance-learning__min-height{
+    min-height: calc(100vh - 200px);
+}
+
+/*
+articulate courses
+*/
+.articulate__info {
+    color: var(--brown);
+    font-size: 18px;
+    line-height: 35px;
+    margin-top: 20px;
+}
